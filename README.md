@@ -13,4 +13,4 @@ How to install :
 4. open the application using your favourite browser
 ```
 
-To contribute to this repo you can email me at lana.saiful.aqil@mail.ugm.ac.id
+To contribute code, fork the repository, apply changes and submit a pull request to the master branch.
