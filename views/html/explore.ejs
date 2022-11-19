@@ -1,7 +1,63 @@
 <%- include('layouts/head') %> 
-<body class="bg-black text-white w-100 h-screen" x-data="{ uri: 'http://localhost:3000' }">
+<body class="bg-black text-white w-100 h-screen" x-data="{ uri: 'http://localhost:3000', endpoint: '/explore' }">
     <%- include('layouts/navbar') %> 
     <div class="flex" style="height: 90%">
         <%- include('layouts/sidebar') %> 
+        <div class="w-6/12 border border-gray-800 h-100">
+            <button type="button" class="text-start p-3 pl-5 border border-gray-800" 
+            @click="window.location.href = uri + endpoint + '/id'">
+                <h3 class="text-lg font-semibold">Title Here</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam tenetur ea eligendi quaerat sapiente sit in, incidunt ullam recusandae deserunt. At esse necessitatibus aliquid ipsam blanditiis excepturi nobis temporibus.
+            </button>
+            <button type="button" class="text-start p-3 pl-5 border border-gray-800" 
+            @click="window.location.href = uri + endpoint + '/id'">
+                <h3 class="text-lg font-semibold">Title Here</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam tenetur ea eligendi quaerat sapiente sit in, incidunt ullam recusandae deserunt. At esse necessitatibus aliquid ipsam blanditiis excepturi nobis temporibus.
+            </button>
+            <button type="button" class="text-start p-3 pl-5 border border-gray-800" 
+            @click="window.location.href = uri + endpoint + '/id'">
+                <h3 class="text-lg font-semibold">Title Here</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam tenetur ea eligendi quaerat sapiente sit in, incidunt ullam recusandae deserunt. At esse necessitatibus aliquid ipsam blanditiis excepturi nobis temporibus.
+            </button>
+            <button type="button" class="text-start p-3 pl-5 border border-gray-800" 
+            @click="window.location.href = uri + endpoint + '/id'">
+                <h3 class="text-lg font-semibold">Title Here</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam tenetur ea eligendi quaerat sapiente sit in, incidunt ullam recusandae deserunt. At esse necessitatibus aliquid ipsam blanditiis excepturi nobis temporibus.
+            </button>
+            <button type="button" class="text-start p-3 pl-5 border border-gray-800" 
+            @click="window.location.href = uri + endpoint + '/id'">
+                <h3 class="text-lg font-semibold">Title Here</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam tenetur ea eligendi quaerat sapiente sit in, incidunt ullam recusandae deserunt. At esse necessitatibus aliquid ipsam blanditiis excepturi nobis temporibus.
+            </button>
+        </div>
+        <div class="w-3/12 border border-gray-800 h-100 p-5">
+            <h3 class="text-xl font-semibold">Related Topic</h3>
+            <ul class="mt-4 list-disc ml-5">
+                <li class="underline underline-offset-1">
+                    <a href="#">Topic Goes Here</a>
+                </li>
+                <li class="underline underline-offset-1">
+                    <a href="#">Topic Goes Here</a>
+                </li>
+                <li class="underline underline-offset-1">
+                    <a href="#">Topic Goes Here</a>
+                </li>
+                <li class="underline underline-offset-1">
+                    <a href="#">Topic Goes Here</a>
+                </li>
+                <li class="underline underline-offset-1">
+                    <a href="#">Topic Goes Here</a>
+                </li>
+                <li class="underline underline-offset-1">
+                    <a href="#">Topic Goes Here</a>
+                </li>
+                <li class="underline underline-offset-1">
+                    <a href="#">Topic Goes Here</a>
+                </li>
+                <li class="underline underline-offset-1">
+                    <a href="#">Topic Goes Here</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
