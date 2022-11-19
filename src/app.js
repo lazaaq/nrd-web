@@ -6,23 +6,23 @@ app.get('/', (req, res) => {
 })
 
 app.get('/explore', (req, res) => {
-    res.send('explore')
+    res.render('./html/explore.ejs')
 })
 
 app.get('/messages', (req, res) => {
-    res.send('messages')
+    res.render('./html/messages.ejs')
 })
 
 app.get('/groups', (req, res) => {
-    res.send('groups')
+    res.render('./html/groups.ejs')
 })
 
 app.get('/achievement', (req, res) => {
-    res.send('achievement')
+    res.render('./html/achievement.ejs')
 })
 
 app.get('/profile', (req, res) => {
-    res.send('profile')
+    res.render('./html/profile.ejs')
 })
 
 app.listen({
